@@ -1,37 +1,4 @@
 // UC3: Track Unique Bogie IDs (Set – HashSet)
-/* Key Concepts Used in UC3
-HashSet – Stores unique elements.
-
-
-Set Interface – Collection type that does not allow duplicate elements.
-
-
-HashSet – Implementation of Set that stores elements using hashing for fast access.
-
-
-add() Method – Inserts values into the set.
-
-
-Automatic Deduplication – HashSet ensures uniqueness without manual checks.
-
-
-Unordered Storage – Elements are not stored using index positions.
-
-
-
-Key Requirements
-
-Create a HashSet<String> for bogie IDs.
-
-
-Add duplicate values intentionally.
-
-
-Print the final set.
-
-
-Observe that duplicates are removed automatically.
- */
 
 import java.util.*;
 
